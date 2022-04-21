@@ -1,0 +1,21 @@
+# 设置服务器启动的端口号
+server:
+  port: 8001
+
+# 编写mybatis的有关配置
+mybatis:
+  type-aliases-package: com.example.springcloud.pojo
+  config-location: classpath:/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+
+# 编写spring的有关配置
+spring:
+  application:
+    name: springcloud-provider-dept
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/DB_API?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+
