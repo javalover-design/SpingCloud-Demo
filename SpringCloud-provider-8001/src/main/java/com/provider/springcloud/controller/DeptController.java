@@ -3,10 +3,7 @@ package com.provider.springcloud.controller;
 import com.example.springcloud.pojo.Dept;
 import com.provider.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -29,7 +26,11 @@ public class DeptController {
      * @return
      */
     @PostMapping("/add")
-    public boolean addDept(Dept dept){
+
+    /**@RequestBody
+     * 注解表示主要接收前端传递给后端的json字符串中的数据（即请求体中的数据，一般与post请求一起使用）
+     * */
+    public boolean addDept(@RequestBody Dept dept){
         return deptService.addDept(dept);
     }
 

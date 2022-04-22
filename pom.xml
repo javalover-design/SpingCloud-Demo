@@ -10,6 +10,7 @@
     <modules>
         <module>SpringCloud-API</module>
         <module>SpringCloud-provider-8001</module>
+        <module>SpringCloud-consumer-80</module>
     </modules>
 
     <!--    定义版本号-->

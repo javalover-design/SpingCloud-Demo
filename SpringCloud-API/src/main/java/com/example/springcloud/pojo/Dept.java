@@ -14,15 +14,15 @@ import java.io.Serializable;
 @Accessors(chain = true)
 public class Dept implements Serializable {
     /**SpringCloud中的所有的实体类都必须要实现序列化*/
-    private long dbptno;
-    private String dename;
+    private long deptno;
+    private String dname;
     /**
      * 查看某个数据是存在哪个数据库的字段
      */
     private String db_source;
 
     public Dept(String dename) {
-        this.dename = dename;
+        this.dname = dename;
     }
 
     /**

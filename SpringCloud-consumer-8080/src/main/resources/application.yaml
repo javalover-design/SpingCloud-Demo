@@ -1,0 +1,13 @@
+# 配置端口号
+server:
+  port: 8080
+
+# 配置消费者的名字
+spring:
+  application:
+    name: springcloud-consumer-dept
+  # 配置热部署的端口
+  devtools:
+    livereload:
+      port: 32961
+
