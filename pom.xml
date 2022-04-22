@@ -10,7 +10,8 @@
     <modules>
         <module>SpringCloud-API</module>
         <module>SpringCloud-provider-8001</module>
-        <module>SpringCloud-consumer-80</module>
+        <module>SpringCloud-consumer-8080</module>
+        <module>SpringCloud-eureka-7001</module>
     </modules>
 
     <!--    定义版本号-->
@@ -31,6 +32,14 @@
         <dependencies>
 <!--            springcloud的依赖-->
             <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies -->
+<!--            <dependency>-->
+<!--                <groupId>org.springframework.cloud</groupId>-->
+<!--                <artifactId>spring-cloud-dependencies</artifactId>-->
+<!--                <version>Greenwich.SR3</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -39,11 +48,13 @@
                 <scope>import</scope>
             </dependency>
 
-<!--            导入springboot的依赖-->
+
+
+            <!--  导入springboot的依赖-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.6.4</version>
+                <version>2.6.2</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
