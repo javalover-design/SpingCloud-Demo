@@ -19,3 +19,15 @@ spring:
     username: root
     password: 123456
 
+# 配置eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: java-spring-cloud
+# 配置info
+info:
+  app.name: demo for Spring Cloud
+  company.name: GPNU
+
