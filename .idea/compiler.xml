@@ -10,7 +10,9 @@
         <module name="SpringCloud-consumer-8080" />
         <module name="SpringCloud-API" />
         <module name="SpringCloud-eureka-7001" />
+        <module name="SpringCloud-eureka-7002" />
         <module name="SpringCloud-provider-8001" />
+        <module name="SpringCloud-eureka-7003" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,15 +1,15 @@
 server:
-  port: 7001
+  port: 7003
 
 # Eureka配置
 eureka:
   instance:
-    hostname: eureka7001.cn  #Eureka服务端的实例名称（服务端主机名为eureka7001.cn）
+    hostname: eureka7003.cn  #Eureka服务端的实例名称（服务端主机名为eureka7003.cn）
   client:
     register-with-eureka: false    # 表示是否向Eureka注册中心注册自己（这里是服务端，为false）
     fetch-registry: false  #表示如果fetch-register为false表示自己为服务中心
     service-url:  #类似于监控页面
 #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka #这里使用${}取出相关设置，用于服务端的访问地址
-       defaultZone: http://eureka7002.cn:7002/eureka, http://eureka7003.cn:7003/eureka
+       defaultZone: http://eureka7002.cn:7002/eureka, http://eureka7001.cn:7001/eureka
   server:
     enable-self-preservation: true # 开启自我保护机制

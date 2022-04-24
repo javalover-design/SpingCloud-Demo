@@ -23,7 +23,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.cn:7001/eureka,http://eureka7002.cn:7002/eureka, http://eureka7003.cn:7003/eureka
   instance:
     instance-id: java-spring-cloud
 # 配置info
