@@ -21,8 +21,11 @@ public class DeptConsumerController {
 
     /**
      * 由于需要从远程的服务提供者获取相应的资源，所以需要设置远程提供者资源请求的固定前缀
-     */
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+     *private static final String REST_URL_PREFIX = "http://localhost:8001";
+     *由于加入了集群，所以需要写入服务提供者的服务名
+     * */
+    private static final String REST_URL_PREFIX="http://SPRINGCLOUD-PROVIDER-DEPT";
+
 
 
     /**
