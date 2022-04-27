@@ -1,6 +1,6 @@
 # 设置服务器启动的端口号
 server:
-  port: 8001
+  port: 8002
 
 # 编写mybatis的有关配置
 mybatis:
@@ -15,7 +15,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/DB_API?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/DB_02?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 123456
 
@@ -25,7 +25,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.cn:7001/eureka,http://eureka7002.cn:7002/eureka, http://eureka7003.cn:7003/eureka
   instance:
-    instance-id: java-spring-cloud01
+    instance-id: java-spring-cloud02
 # 配置info
 info:
   app.name: demo for Spring Cloud
