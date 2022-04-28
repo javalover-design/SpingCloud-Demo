@@ -15,6 +15,7 @@
         <module name="SpringCloud-provider-8002" />
         <module name="SpringCloud-provider-8001" />
         <module name="SpringCloud-eureka-7003" />
+        <module name="SpringCloud-consumer-feign-8080" />
       </profile>
     </annotationProcessing>
   </component>
