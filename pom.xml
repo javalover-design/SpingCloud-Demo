@@ -17,6 +17,7 @@
         <module>SpringCloud-provider-8002</module>
         <module>SpringCloud-provider-8003</module>
         <module>SpringCloud-consumer-feign-8080</module>
+        <module>SpringCloud-provider-hystrix-8001</module>
     </modules>
 
     <!--    定义版本号-->
