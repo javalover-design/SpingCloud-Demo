@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>SpringCloud-consumer-feign-8080</artifactId>
+    <artifactId>SpringCloud-consumer-hystrix-dashboard-8080</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -50,19 +50,26 @@
             <version>1.4.6.RELEASE</version>
         </dependency>
 
-<!--        添加feign的依赖-->
+        <!--        添加feign的依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
             <version>1.4.6.RELEASE</version>
         </dependency>
 
+<!--        hystrix依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix</artifactId>
             <version>1.4.6.RELEASE</version>
         </dependency>
 
+<!--        hystrix监控依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
     </dependencies>
 
 </project>

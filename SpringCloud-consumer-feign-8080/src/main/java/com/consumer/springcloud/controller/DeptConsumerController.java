@@ -2,6 +2,7 @@ package com.consumer.springcloud.controller;
 
 import com.example.springcloud.pojo.Dept;
 import com.example.springcloud.service.DeptClientService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -31,8 +32,13 @@ public class DeptConsumerController {
      * @return
      */
     @RequestMapping("/getDept/{id}")
+    @HystrixCommand(fallbackMethod = "getDeptByIdFailed")
     public Dept getDeptById(@PathVariable("id") Long id) {
         return this.deptClientService.queryDeptById(id);
+    }
+
+    public Exception getDeptByIdFailed(@PathVariable("id")Long id){
+        return new RuntimeException("Null");
     }
 
     /**

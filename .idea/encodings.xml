@@ -7,6 +7,8 @@
     <file url="file://$PROJECT_DIR$/SpringCloud-consumer-8080/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-consumer-feign-8080/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-consumer-feign-8080/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-consumer-hystrix-dashboard-8080/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-consumer-hystrix-dashboard-8080/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-eureka-7001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-eureka-7001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-eureka-7002/src/main/java" charset="UTF-8" />

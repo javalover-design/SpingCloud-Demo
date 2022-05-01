@@ -14,7 +14,7 @@ import java.util.List;
  * @author lambda
  */
 @Component
-@FeignClient(value = "SPRINGCLOUD-PROVIDER-DEPT")
+@FeignClient(value = "SPRINGCLOUD-PROVIDER-DEPT",fallbackFactory = DeptClientServiceFallBackFactory.class)
 public interface DeptClientService {
 
     /**
