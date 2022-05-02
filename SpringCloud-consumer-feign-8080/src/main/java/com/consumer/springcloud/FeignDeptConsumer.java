@@ -15,4 +15,5 @@ public class FeignDeptConsumer {
     public static void main(String[] args) {
         SpringApplication.run(FeignDeptConsumer.class,args);
     }
+
 }

@@ -11,6 +11,7 @@
         <module name="SpringCloud-consumer-hystrix-dashboard-8080" />
         <module name="SpringCloud-provider-hystrix-8001" />
         <module name="SpringCloud-API" />
+        <module name="SpringCloud-zuul-9981" />
         <module name="SpringCloud-eureka-7001" />
         <module name="SpringCloud-provider-8003" />
         <module name="SpringCloud-eureka-7002" />

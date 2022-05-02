@@ -1,0 +1,30 @@
+# 设置服务端口
+server:
+  port: 9981
+
+# 配置应用的名称
+spring:
+  application:
+    name: SpringCloud-zuul
+
+# 配置Eureka集群的地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.cn:7001/eureka,http://eureka7002.cn:7002/eureka, http://eureka7003.cn:7003/eureka
+  instance: #配置实例信息
+    instance-id: Zuul9981.com # 实例id
+    prefer-ip-address: true # 将实例的地址显示
+
+# 配置一些项目信息
+info:
+  app.name: Zuul-9981
+  company.name: GPNU
+
+# 配置网关
+zuul:
+  routes:
+    mydept.serviceId: springcloud-provider-dept #原本微服务名称
+    mydept.path: /dept/** # 现在更改的微服务名称
+  ignored-services:  "*" #取消原来微服务名访问的权限springcloud-provider-dept
+  prefix: /bin #设置路由访问前缀

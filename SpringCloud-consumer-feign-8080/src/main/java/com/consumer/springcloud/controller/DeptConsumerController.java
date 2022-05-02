@@ -37,8 +37,8 @@ public class DeptConsumerController {
         return this.deptClientService.queryDeptById(id);
     }
 
-    public Exception getDeptByIdFailed(@PathVariable("id")Long id){
-        return new RuntimeException("Null");
+    public Dept getDeptByIdFailed(@PathVariable("id")Long id){
+        return new Dept().setDeptno(id).setDname("Null").setDb_source("此服务已经被关闭");
     }
 
     /**

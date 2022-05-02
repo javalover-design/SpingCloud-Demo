@@ -19,6 +19,7 @@
         <module>SpringCloud-consumer-feign-8080</module>
         <module>SpringCloud-provider-hystrix-8001</module>
         <module>SpringCloud-consumer-hystrix-dashboard-8080</module>
+        <module>SpringCloud-zuul-9981</module>
     </modules>
 
     <!--    定义版本号-->
