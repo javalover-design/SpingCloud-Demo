@@ -5,12 +5,12 @@ spring:
 ---
 spring:
   profiles: dev
-    application: 
+    application:
       name: springcloud-config-dev
 
 ---
 spring:
   profiles: test
-    application: 
+    application:
       name: springcloud-config-test
 

@@ -1,0 +1,12 @@
+server:
+  port: 3366
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/javalover-design/SpingCloud-Demo.git # 以http的方式连接
+          skip-ssl-validation: true
+        default-label: main
