@@ -1,0 +1,9 @@
+# 系统级别的配置
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:3366 #需要读取配置服务的数据，因此uri为config-server的路径
+      name: config-client #从git上读取刚刚写的客户端配置文件 不需要书写后缀
+      label: main #添加标签，表示从哪个分支读取
+      profile: dev #表示读取哪个环境的配置

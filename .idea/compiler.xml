@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringCloud-consumer-hystrix-dashboard-8080" />
+        <module name="SpringCloud-config-client-3355" />
         <module name="SpringCloud-zuul-9981" />
         <module name="SpringCloud-consumer-8080" />
         <module name="SpringCloud-provider-hystrix-8001" />

@@ -21,6 +21,7 @@
         <module>SpringCloud-consumer-hystrix-dashboard-8080</module>
         <module>SpringCloud-zuul-9981</module>
         <module>SpringCloud-config-server-3366</module>
+        <module>SpringCloud-config-client-3355</module>
     </modules>
 
     <!--    定义版本号-->
