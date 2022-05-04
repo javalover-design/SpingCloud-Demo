@@ -10,8 +10,10 @@
         <module name="SpringCloud-consumer-hystrix-dashboard-8080" />
         <module name="SpringCloud-config-client-3355" />
         <module name="SpringCloud-zuul-9981" />
+        <module name="SpringCloud-config-provider-8001" />
         <module name="SpringCloud-consumer-8080" />
         <module name="SpringCloud-provider-hystrix-8001" />
+        <module name="SpringCloud-config-eureka-7001" />
         <module name="SpringCloud-API" />
         <module name="SpringCloud-config-server-3366" />
         <module name="SpringCloud-eureka-7001" />

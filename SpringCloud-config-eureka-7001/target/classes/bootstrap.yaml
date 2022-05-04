@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:3366
+      name: config-eureka
+      profile: dev
+      label: main

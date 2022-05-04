@@ -5,6 +5,10 @@
     <file url="file://$PROJECT_DIR$/SpringCloud-API/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-config-client-3355/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-config-client-3355/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-config-eureka-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-config-eureka-7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-config-provider-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-config-provider-8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-config-server-3366/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-config-server-3366/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-consumer-8080/src/main/java" charset="UTF-8" />
