@@ -13,6 +13,7 @@
         <module name="SpringCloud-zuul-9981" />
         <module name="SpringCloud-config-provider-8001" />
         <module name="SpringCloud-consumer-8080" />
+        <module name="SpringCloud-stream-rabbitmq-provider8801" />
         <module name="SpringCloud-provider-hystrix-8001" />
         <module name="SpringCloud-config-eureka-7001" />
         <module name="SpringCloud-API" />

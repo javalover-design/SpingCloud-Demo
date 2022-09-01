@@ -26,6 +26,7 @@
         <module>SpringCloud-config-provider-8001</module>
         <module>SpringCloud-config-client-3366</module>
         <module>SpringCloud-config-client-3377</module>
+        <module>SpringCloud-stream-rabbitmq-provider8801</module>
     </modules>
     <dependencies>
         <dependency>

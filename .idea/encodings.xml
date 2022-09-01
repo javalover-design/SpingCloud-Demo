@@ -33,6 +33,8 @@
     <file url="file://$PROJECT_DIR$/SpringCloud-provider-8003/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-provider-hystrix-8001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-provider-hystrix-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-stream-rabbitmq-provider8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-stream-rabbitmq-provider8801/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-zuul-9981/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-zuul-9981/src/main/resources" charset="UTF-8" />
   </component>
