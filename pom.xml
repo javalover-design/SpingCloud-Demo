@@ -28,6 +28,9 @@
         <module>SpringCloud-config-client-3377</module>
         <module>SpringCloud-stream-rabbitmq-provider8801</module>
         <module>SpringCloud-stream-rabbitmq-consumer8802</module>
+        <module>cloud-alibaba-payment-9001</module>
+        <module>cloud-alibaba-payment-9002</module>
+        <module>cloud-alibaba-consumer-9083</module>
     </modules>
     <dependencies>
         <dependency>
@@ -74,7 +77,14 @@
                 <scope>import</scope>
             </dependency>
 
-
+            <!--            springcloud alibaba依赖-->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.1.0.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
 
             <!--  导入springboot的依赖-->
             <dependency>
@@ -130,8 +140,16 @@
                 <artifactId>logback-core</artifactId>
                 <version>1.2.9</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

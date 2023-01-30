@@ -1,0 +1,14 @@
+server:
+  port: 9001 #9001端口
+spring:
+  application:
+    name: nacos-payment-provider #某个微服务名称
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 #注册中心地址
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  #表示开启全部监控，也可以仅仅配置需要开启的监控

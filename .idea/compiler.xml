@@ -8,10 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringCloud-consumer-hystrix-dashboard-8080" />
+        <module name="cloud-alibaba-payment-9001" />
+        <module name="cloud-alibaba-payment-9002" />
         <module name="SpringCloud-config-client-3355" />
         <module name="SpringCloud-config-client-3377" />
         <module name="SpringCloud-zuul-9981" />
         <module name="SpringCloud-config-provider-8001" />
+        <module name="cloud-alibaba-consumer-9083" />
         <module name="SpringCloud-consumer-8080" />
         <module name="SpringCloud-stream-rabbitmq-provider8801" />
         <module name="SpringCloud-provider-hystrix-8001" />
